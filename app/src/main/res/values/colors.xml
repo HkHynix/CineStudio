@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary & Container -->
+    <color name="md_theme_primary">#0D47A1</color> <!-- Deep Blue -->
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#1565C0</color> <!-- Lighter Blue -->
+    <color name="md_theme_onPrimaryContainer">#E3F2FD</color>
+
+    <!-- Secondary -->
+    <color name="md_theme_secondary">#90CAF9</color> <!-- Light Blue -->
+    <color name="md_theme_onSecondary">#0D1B2A</color>
+    <color name="md_theme_secondaryContainer">#1E3A5F</color>
+    <color name="md_theme_onSecondaryContainer">#E1F5FE</color>
+
+    <!-- Tertiary -->
+    <color name="md_theme_tertiary">#64B5F6</color> <!-- Sky Blue -->
+    <color name="md_theme_onTertiary">#0D1B2A</color>
+    <color name="md_theme_tertiaryContainer">#0A192F</color>
+    <color name="md_theme_onTertiaryContainer">#E0F7FA</color>
+
+    <!-- Error -->
+    <color name="md_theme_error">#CF6679</color>
+    <color name="md_theme_onError">#000000</color>
+    <color name="md_theme_errorContainer">#B00020</color>
+    <color name="md_theme_onErrorContainer">#FFFFFF</color>
+
+    <!-- Background & Surface -->
+    <color name="md_theme_background">#0A0E23</color> <!-- Almost Black Blue -->
+    <color name="md_theme_onBackground">#55383737</color>
+    <color name="md_theme_surface">#121212</color> <!-- Dark Gray Surface -->
+    <color name="md_theme_onSurface">#EFE9E9</color>
+
+    <!-- Surface Variant -->
+    <color name="md_theme_surfaceVariant">#37474F</color>
+    <color name="md_theme_onSurfaceVariant">#CFD8DC</color>
+
+    <!-- Outline & Other -->
+    <color name="md_theme_outline">#607D8B</color>
+    <color name="md_theme_shadow">#000000</color>
+    <color name="md_theme_inverseOnSurface">#121212</color>
+    <color name="md_theme_inverseSurface">#E3F2FD</color>
+    <color name="md_theme_inversePrimary">#64B5F6</color>
+    <color name="md_theme_surfaceTint">#0D47A1</color>
+    <color name="md_theme_outlineVariant">#90A4AE</color>
+    <color name="md_theme_scrim">#000000</color>
+
+    <!-- Extra Colors -->
+    <color name="black">#000000</color>
+    <color name="green">#00FF00</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CineStudio" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#006A60</item>
+        <item name="colorOnPrimary">#FFFFFF</item> <item name="colorPrimaryContainer">#72F8E1</item> <item name="colorOnPrimaryContainer">#00201C</item> <item name="colorSecondary">#4A635F</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSecondaryContainer">#CCE8E1</item>
+        <item name="colorOnSecondaryContainer">#051F1C</item>
+
+        <item name="colorTertiary">#44637B</item>
+        <item name="colorOnTertiary">#FFFFFF</item>
+        <item name="colorTertiaryContainer">#C8E6FF</item>
+        <item name="colorOnTertiaryContainer">#001F31</item>
+
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorErrorContainer">#FFDAD6</item>
+        <item name="colorOnErrorContainer">#410002</item>
+
+        <item name="android:colorBackground">#FBFDFB</item> <item name="colorOnBackground">#191C1B</item> <item name="colorSurface">#FBFDFB</item> <item name="colorOnSurface">#191C1B</item> <item name="colorSurfaceVariant">#DBE5E0</item>
+        <item name="colorOnSurfaceVariant">#3F4946</item>
+
+        <item name="colorOutline">#6F7976</item>
+        <item name="colorOutlineVariant">#BFC9C5</item>
+        <item name="colorSurfaceInverse">#2D312F</item> <item name="colorOnSurfaceInverse">#EEF1EF</item> <item name="colorPrimaryInverse">#4FD8C7</item> </style>
+</resources>
