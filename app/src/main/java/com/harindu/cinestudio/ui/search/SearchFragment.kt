@@ -15,7 +15,6 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.harindu.cinestudio.data.model.Movie
 import com.harindu.cinestudio.databinding.FragmentSearchBinding
 import com.harindu.cinestudio.ui.movielist.MovieAdapter
 import com.harindu.cinestudio.ui.movielist.MovieListFragmentDirections

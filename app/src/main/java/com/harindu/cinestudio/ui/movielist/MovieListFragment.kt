@@ -12,11 +12,9 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.chip.ChipGroup
 import com.harindu.cinestudio.R
-import com.harindu.cinestudio.data.model.Movie
 import com.harindu.cinestudio.databinding.FragmentMovieListBinding
-import com.harindu.cinestudio.ui.moviedetail.MovieDetailFragment
+
 
 class MovieListFragment : Fragment() {
 
