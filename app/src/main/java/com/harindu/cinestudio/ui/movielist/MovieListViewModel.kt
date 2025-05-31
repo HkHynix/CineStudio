@@ -68,7 +68,7 @@ class MovieListViewModel(private val repository: MovieRepository) : ViewModel() 
         if (_currentMovieCategory.value != category) {
             _currentMovieCategory.postValue(category)
             // The clearMovies() call from the Fragment will handle the list clearing.
-            // No need to clear here if category just changed.
+
         }
 
         _isLoading.postValue(true)
@@ -92,7 +92,7 @@ class MovieListViewModel(private val repository: MovieRepository) : ViewModel() 
                     val currentList = _movies.value ?: mutableListOf() // Get current list or create new
 
                     if (page == 1) {
-                        // For the first page, replace the list (initial load or refresh)
+
                         _movies.postValue(newMovies.toMutableList())
                         Log.d(TAG, "Page 1 data received. Total movies: ${newMovies.size}")
                     } else {

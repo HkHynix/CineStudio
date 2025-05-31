@@ -32,8 +32,8 @@ class MovieAdapter(private val onClick: (Movie) -> Unit) :
 
         fun bind(movie: Movie, imageBaseUrl: String) {
             binding.movieTitleTextView.text = movie.title
-            binding.movieReleaseDateTextView.text = movie.releaseDate // Assuming this is the correct ID for release year
-            // You might also want to bind movie.rating and movie.overview here if your item_movie.xml has them
+            binding.movieReleaseDateTextView.text = movie.releaseDate
+
 
             // Load movie poster using Glide
             val imageUrl = "$imageBaseUrl${movie.posterPath}"

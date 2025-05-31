@@ -22,13 +22,10 @@ class ProfileFragment : Fragment() {
         return binding.root
     }
 
-    // FIX: Changed 'View.VIEW' to 'View' for the parameter type
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        // You can add logic here to populate profile data if you expand the dummy view
-        // For example, if you had a ViewModel, you'd observe its LiveData here.
-        // For now, the dummy layout itself provides the content.
-        // Example of setting dummy data (if you want to see text):
+
         binding.profileName.text = "Harindu"
         binding.profileEmail.text = "harindu.dev@gmail.com"
     }

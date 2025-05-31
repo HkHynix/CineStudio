@@ -90,7 +90,7 @@ class MovieViewModel(private val repository: MovieRepository) : ViewModel() {
         viewModelScope.launch {
             try {
                 // Call the appropriate repository method based on the category
-                // The API key is NOT passed here; it's handled by TmdbApiService
+
                 val response = when (category) {
                     "popular" -> repository.getPopularMovies(page = page) // CORRECTED CALL
                     "top_rated" -> repository.getTopRatedMovies(page = page)
